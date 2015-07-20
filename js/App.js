@@ -1,14 +1,20 @@
-var React = require("react");
+var React = require('react');
 
 var App = React.createClass({
+  getInitialState: function() {
+    return {text: ''};
+  },
+  handleChange: function (e) {
+    this.setState({text: e.target.value});
+  },  
 	render: function() {
 		return (
 			<div>
-				Hello World!!!
-			</div>
+        <input type="text" onChange={this.handleChange}/>
+        {this.state.text}
+  		</div>
 		);
 	}
 });
 
-React.render(<App />, document.querySelector('body'));
-
+module.exports = App;
