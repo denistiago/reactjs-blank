@@ -2,19 +2,11 @@
 
 A starter kit for React and Webpack + Babel
 
-## install dependencies
+## Getting started
 
 ```bash
-npm install webpack -g
+npm install webpack webpack-dev-server -g
 npm install
+npm run
 ```
-
-## dev mode
-```bash
-webpack --watch
-````
-
-## running 
-```bash
-python -m SimpleHTTPServer 8000
-```
+Now browse to the app at `http://localhost:3000/webpack-dev-server/bundle`
