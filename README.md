@@ -1,11 +1,12 @@
-# install dependencies
-npm install webpack -g
-npm install babel-loader webpack —save-dev
+# React Blank
 
+A starter kit for React and Webpack + Babel
 
-#dev mode
-webpack --watch
+## Getting started
 
-#running 
-python -m SimpleHTTPServer 8000
-
+```bash
+npm install webpack webpack-dev-server -g
+npm install
+npm run
+```
+Now browse to the app at `http://localhost:3000/webpack-dev-server/bundle`
