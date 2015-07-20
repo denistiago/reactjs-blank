@@ -9,4 +9,4 @@ npm install webpack webpack-dev-server -g
 npm install
 npm run
 ```
-Now browse to the app at `http://localhost:3000/webpack-dev-server/bundle`
+Now browse to the app at `http://localhost:3000/`
