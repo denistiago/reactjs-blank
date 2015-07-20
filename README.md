@@ -1,11 +1,20 @@
-# install dependencies
+# React Blank
+
+A starter kit for React and Webpack + Babel
+
+## install dependencies
+
+```bash
 npm install webpack -g
-npm install babel-loader webpack —save-dev
+npm install
+```
 
-
-#dev mode
+## dev mode
+```bash
 webpack --watch
+````
 
-#running 
+## running 
+```bash
 python -m SimpleHTTPServer 8000
-
+```
